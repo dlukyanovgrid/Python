@@ -1,0 +1,7 @@
+WARNING 2018-04-09 17:41:55,864 this is a formatted warning
+WARNING 2018-04-09 17:41:55,865 This is a warning sent to the journal
+ERROR 2018-04-09 17:41:55,866 Failed to divide
+Traceback (most recent call last):
+  File "./logging-demo.py", line 31, in bad_idea
+    c = 1 / 0	# Easy way to force an exception
+ZeroDivisionError: division by zero
